@@ -1,16 +1,13 @@
 # Overview #
-====================
 
 The purpose of this analysis is to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 
 
 # Results #
-==================
 
 
 ## Data Processing ##
------------------------------
 
 * What variable(s) are the target(s) for your model?
 
@@ -26,11 +23,10 @@ The purpose of this analysis is to create a binary classifier that can predict w
 
 
 ## Compiling, Training, and Evaluating the Model ##
------------------------------------------------------------------
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-    For my final neural network model, I selected 3 layers with 50, 20, and 5 neurons respectively.
+    For my final neural network model, I selected 3 layers with 50, 20, and 5 neurons respectively. I used relu in the first layer to introduce non-linearity and sigmoid in the second and third layers as it is best suited for binary classifications.
     
 * Were you able to achieve the target model performance?
 
@@ -43,7 +39,6 @@ The purpose of this analysis is to create a binary classifier that can predict w
 
 
 # Summary #
-=====================
 
 In my last optimization attempt, I was able to raise the accuracy up to 72.9%, but still did not achieve the goal of 75%. A different combination of changes, such as: trying out various activation functions, adjusting the number of layers and neurons, or changing the activation functions for each layer could ultimately contribute to optimizing the model and achieving the desired goal of 75% accuracy. 
 
